@@ -46,6 +46,6 @@
   <Environment/>
   <Labels/>
   <Config Name="Web App Port" Target="5000" Default="5000" Mode="tcp" Description="Container Port: 5000" Type="Port" Display="always" Required="false" Mask="false">5000</Config>
-  <Config Name="Data Directory" Target="/kavita/data" Default="" Mode="rw" Description="Container Path: /kavita/data" Type="Path" Display="always" Required="false" Mask="false"/>
+  <Config Name="Data Directory" Target="/kavita/config" Default="" Mode="rw" Description="Container Path: /kavita/config" Type="Path" Display="always" Required="false" Mask="false"/>
   <Config Name="Book Library" Target="/library" Default="" Mode="rw" Description="Container Path: /library" Type="Path" Display="always" Required="false" Mask="false"/>
 </Container>
