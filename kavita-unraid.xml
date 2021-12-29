@@ -34,7 +34,7 @@
   <Data>
     <Volume>
       <HostDir/>
-      <ContainerDir>/kavita/data</ContainerDir>
+      <ContainerDir>/kavita/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
