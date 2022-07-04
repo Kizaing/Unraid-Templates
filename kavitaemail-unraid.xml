@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>KavitaEmail</Name>
+  <Repository>kizaing/kavitaemail</Repository>
+  <Registry>https://hub.docker.com/r/kizaing/kavitaemail</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/112111-support-kizaing-kavita/</Support>
+  <Project>https://github.com/Kareadita/KavitaEmail</Project>
+  <Overview>This is a simple email relay server that handles emails from Kavita application. By default, Kavita installations will use the Kavita hosted email service. However, if a user wants to setup their own SMTP service, then they can run their own instance of this microService.</Overview>
+  <Category>Network:Other</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/Kareadita/Kavita/develop/UI/Web/src/assets/icons/android-chrome-192x192.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1656919689</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>This is a simple email relay server that handles emails from Kavita application. By default, Kavita installations will use the Kavita hosted email service. However, if a user wants to setup their own SMTP service, then they can run their own instance of this microService.</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>5003</HostPort>
+        <ContainerPort>5003</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data/>
+  <Environment>
+    <Variable>
+      <Value/>
+      <Name/>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value/>
+      <Name/>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value/>
+      <Name/>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value/>
+      <Name/>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value/>
+      <Name/>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value/>
+      <Name/>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Labels/>
+  <Config Name="SMTP Relay Port" Target="5003" Default="5003" Mode="tcp" Description="Container Port: 5003" Type="Port" Display="always" Required="false" Mask="false">5003</Config>
+  <Config Name="SMTP_HOST" Target="" Default="" Mode="" Description="Your SMTP server hostname" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="SMTP_PORT" Target="" Default="" Mode="" Description="SMTP server port" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="SMTP_USER" Target="" Default="" Mode="" Description="SMTP Username" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="SMTP_PASS" Target="" Default="" Mode="" Description="SMTP password" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="SEND_ADDR" Target="" Default="" Mode="" Description="Address you want your emails to appear from" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="DISP_NAME" Target="" Default="" Mode="" Description="Display name for the emails being sent" Type="Variable" Display="always" Required="true" Mask="false"/>
+</Container>
