@@ -12,20 +12,15 @@
   <Overview>This is a simple email relay server that handles emails from Kavita application. By default, Kavita installations will use the Kavita hosted email service. However, if a user wants to setup their own SMTP service, then they can run their own instance of this microService.</Overview>
   <Category>Network:Other</Category>
   <WebUI/>
-  <TemplateURL/>
+  <TemplateURL>https://raw.githubusercontent.com/Kizaing/Unraid-Templates/master/kavitaemail-unraid.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/Kareadita/Kavita/develop/UI/Web/src/assets/icons/android-chrome-192x192.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1664418584</DateInstalled>
+  <DateInstalled>1683427464</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
   <Config Name="SMTP Relay Port" Target="5003" Default="5003" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">5003</Config>
-  <Config Name="SMTP_HOST" Target="SMTP_HOST" Default="" Mode="" Description="Your SMTP server hostname" Type="Variable" Display="always" Required="true" Mask="false"/>
-  <Config Name="SMTP_PORT" Target="SMTP_PORT" Default="" Mode="" Description="SMTP server port" Type="Variable" Display="always" Required="true" Mask="false"/>
-  <Config Name="SMTP_USER" Target="SMTP_USER" Default="" Mode="" Description="SMTP Username" Type="Variable" Display="always" Required="true" Mask="false"/>
-  <Config Name="SMTP_PASS" Target="SMTP_PASS" Default="" Mode="" Description="SMTP password" Type="Variable" Display="always" Required="true" Mask="false"/>
-  <Config Name="SEND_ADDR" Target="SEND_ADDR" Default="" Mode="" Description="Address you want your emails to appear from" Type="Variable" Display="always" Required="true" Mask="false"/>
-  <Config Name="DISP_NAME" Target="DISP_NAME" Default="" Mode="" Description="Display name for the emails being sent" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Config Path" Target="/app/config" Default="/mnt/user/appdata/KavitaEmail" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/KavitaEmail</Config>
 </Container>
