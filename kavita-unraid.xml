@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Kavita</Name>
-  <Repository>kizaing/kavita</Repository>
+  <Repository>jvmilazz0/kavita</Repository>
   <Registry>https://hub.docker.com/r/kizaing/kavita</Registry>
   <Network>bridge</Network>
   <MyIP/>
