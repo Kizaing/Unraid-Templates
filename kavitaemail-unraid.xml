@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>KavitaEmail</Name>
-  <Repository>kizaing/kavitaemail</Repository>
+  <Repository>jvmilazz0/kavitaemail</Repository>
   <Registry>https://hub.docker.com/r/kizaing/kavitaemail</Registry>
   <Network>bridge</Network>
   <MyIP/>
