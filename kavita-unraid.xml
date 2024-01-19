@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>Kavita</Name>
   <Repository>jvmilazz0/kavita</Repository>
-  <Registry>https://hub.docker.com/r/kizaing/kavita</Registry>
+  <Registry>https://hub.docker.com/r/jvmilazz0/kavita</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>bash</Shell>
